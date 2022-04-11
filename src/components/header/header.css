@@ -1,12 +1,138 @@
-.intro{
+.intro {
   display: flex;
   height: 100vh;
 }
 
-.intro-left{
+.intro-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-right {
   flex: 1;
 }
 
-.intro-right{
-  flex: 1;
+.intro-left-wrapper {
+  padding: 3rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-hello {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.intro-name {
+  color: var(--color-brickRed);
+}
+
+.intro-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.intro-title-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+ 50% {
+    transform: translateY(-50px);
+  }
+}
+
+.intro-title-item {
+  height: 50px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-darkGreen);
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  /* margin-top: 3rem; */
+}
+
+.header_socials{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  /* margin-top: 3rem; */
+}
+
+.intro-img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   transform: scaleX(-1);
+}
+
+
+/* Media query for laptop */
+@media screen and (max-width: 1280px){
+
+  .intro-left-wrapper{
+    height: 100% ;
+  }
+  .btn{
+    margin-top: 3rem;
+  }
+  
+  .header_socials{
+    margin-top: 3rem;
+  }
+}
+/* Media query medium device */
+@media screen and (max-width: 1024px){
+  .intro{
+    flex-direction: column;
+  }
+  .intro-left-wrapper{
+    align-items: center;
+    text-align: center;
+    height: 100% ;
+  }
+  .btn{
+    margin-top: 3rem;
+  }
+  
+  .header_socials{
+    margin-top: 3rem;
+  }
+}
+
+/* Media query small device */
+@media screen and (max-width: 600px){
+.intro{
+  flex-direction: column;
+}
+.intro-left-wrapper{
+  align-items: center;
+  text-align: center;
+  height: 100% ;
+}
+
+.intro-title-item{
+  font-size: 1.5rem;
+}
+
+/* .btn{
+  margin-top: 3rem;
+}
+
+.header_socials{
+  margin-top: 3rem;
+} */
+
 }
