@@ -1,6 +1,7 @@
 import React from "react";
 import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 function Skills() {
   return (
@@ -43,7 +44,7 @@ function Skills() {
           </div>
         </div>
         {/* end of front-end */}
-        <div className="skills_content">
+        <div className="skills_contents">
           <p>
             I am specialised in developing responsive websites for businesses
             and for individuals. Websites don't have to be static, I love making
@@ -55,11 +56,11 @@ function Skills() {
             ownership attitude towards software components.
           </p>
           <ul class="core-skills">
-            <li>Go the extra-mile</li>
-            <li>Results-oriented</li>
-            <li>Team-player</li>
-            <li>Caring</li>
-            <li>Positive mindset</li>
+            <li><HiOutlineArrowRight/>Go the extra-mile</li>
+            <li><HiOutlineArrowRight/>Results-oriented</li>
+            <li><HiOutlineArrowRight/>Team-player</li>
+            <li><HiOutlineArrowRight/>Caring</li>
+            <li><HiOutlineArrowRight/>Positive mindset</li>
           </ul>
         </div>
       </div>

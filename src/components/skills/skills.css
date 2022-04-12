@@ -5,8 +5,39 @@ gap: 2rem;
 }
 
 .skills_container > div{
-  background: var(--color-darkGreen);
+  
+  background: #f0edede0;
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  transition: var(--transition);
 }
+
+.skills_container > div:hover{
+  background: #d8d3d3e0;
+  cursor: default;
+}
+
+.skills_container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-brickRed);
+  font-size: 1.2rem;
+}
+
+.skills_container > div h4 {
+  color: var(--color-darkGreen);
+  font-size: 1.5rem;
+}
+
+.skills_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+
+.core-skills  li{
+    color: var(--color-darkGreen);
+    padding: 0.5rem 2rem;
+  }
