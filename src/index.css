@@ -16,7 +16,7 @@
   --color-green: #33b0a1e0;
   --color-darkGreen: #156666;
   --color-blue: #314ECE;
-  --color-yellow: rgb(255, 231, 97);
+  --color-yellow: rgb(223, 198, 53);
   --transition: all 400ms ease;
 
   --container-width-lg:75%;
@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5{
 
  section{
    margin-top: 8rem;
+   height: 100vh;
  }
 
  section > h2{
@@ -72,7 +73,7 @@ h1,h2,h3,h4,h5{
  }
 
  a:hover{
-   color: var(--color-blue);
+   color: var(--color-yellow);
  }
 
  .btn{

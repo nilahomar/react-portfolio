@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import HeaderSocial from "./HeaderSocial";
-import Me from "../../assets/me.png";
+import Me from "../../assets/me.svg";
 
 function Header() {
   return (
@@ -25,7 +25,9 @@ function Header() {
         </div>
       </div>
       <div className="intro-right">
-        <img src={Me} alt="" className="intro-img" />
+        <div className="intro_image">
+          <img src={Me} alt="" className="intro-img" />
+        </div>
       </div>
     </div>
   );
