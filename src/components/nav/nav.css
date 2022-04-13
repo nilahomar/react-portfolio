@@ -1,5 +1,4 @@
 nav {
-  /* background: rgba(100, 111, 164, 0.35); */
   width: max-content;
   display: block;
   display: flex;
@@ -29,4 +28,12 @@ nav a:hover{background: rgba(0, 0, 0, 0.3);
 
 nav a.active{
   background: var(--color-darkGreen); 
+}
+
+
+/* Media query small device */
+@media screen and (max-width: 600px){
+  nav {
+    gap: 0.5rem;
+  }
 }

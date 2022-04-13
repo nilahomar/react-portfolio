@@ -11,35 +11,47 @@ function Skills() {
         <div className="skills_frontend">
           <h3>Front-end Development</h3>
           <div className="skills_content">
-            <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+            <article className="skills_details">              
+                <BsPatchCheckFill className="skills_details_icon" />
+                <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="skills_details_icon"/>
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>SASS</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="skills_details_icon"/>
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="skills_details_icon"/>
+              <div>
+                <h4>SASS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>REACT</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="skills_details_icon"/>
+              <div>
+                <h4>REACT</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill />
-              <h4>Bootstrap</h4>
-              <small className="text-light">Experienced</small>
+              <BsPatchCheckFill className="skills_details_icon"/>
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -55,12 +67,27 @@ function Skills() {
             I have a product-oriented development mindset and a responsible
             ownership attitude towards software components.
           </p>
-          <ul class="core-skills">
-            <li><HiOutlineArrowRight/>Go the extra-mile</li>
-            <li><HiOutlineArrowRight/>Results-oriented</li>
-            <li><HiOutlineArrowRight/>Team-player</li>
-            <li><HiOutlineArrowRight/>Caring</li>
-            <li><HiOutlineArrowRight/>Positive mindset</li>
+          <ul className="core-skills">
+            <li>
+              <HiOutlineArrowRight />
+              Go the extra-mile
+            </li>
+            <li>
+              <HiOutlineArrowRight />
+              Results-oriented
+            </li>
+            <li>
+              <HiOutlineArrowRight />
+              Team-player
+            </li>
+            <li>
+              <HiOutlineArrowRight />
+              Caring
+            </li>
+            <li>
+              <HiOutlineArrowRight />
+              Positive mindset
+            </li>
           </ul>
         </div>
       </div>

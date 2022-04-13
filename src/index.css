@@ -41,7 +41,7 @@ body{
 /* General styles */
 .container{
   width: var(--container-width-lg);
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5{
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5{
 
  section{
    margin-top: 8rem;
-   height: 100vh;
+   min-height: 100vh;
  }
 
  section > h2{
