@@ -88,14 +88,14 @@ h1,h2,h3,h4,h5{
  }
 
  .btn:hover{
-   background-color: var(--color-bg);
+   background-color: var(--color-brickRed);
    color: var(--color-black);
    border-color: transparent;
  }
 
  .btn-primary{
    background: var(--color-black);
-   color: var(--color-bg);
+   color: var(--color-green);
  }
 
  img{

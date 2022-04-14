@@ -1,5 +1,6 @@
 .intro {
   display: flex;
+  min-height: 100vh;
 }
 
 .intro-left {
