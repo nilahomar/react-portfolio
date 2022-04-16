@@ -6,7 +6,6 @@
 
 .project_item {
   background: linear-gradient(to right, #000000, #1a3535);
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459);
   padding: 1.3rem;
   border-radius: 2rem;
   transition: var(--transition);
@@ -23,7 +22,7 @@
 }
 
 .project_item h3,
-p {
+.project_item p {
   margin: 1.2rem 0 2rem;
 }
 
@@ -35,7 +34,6 @@ p {
   color: var(--color-bg);
 }
 
-
 .project_item_cta {
   display: flex;
   justify-content: center;
@@ -46,10 +44,6 @@ p {
 @media screen and (max-width: 1024px) {
   .project_container {
     grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-  }
-  .container{
-    
   }
 }
 
@@ -57,6 +51,5 @@ p {
 @media screen and (max-width: 600px) {
   .project_container {
     grid-template-columns: 1fr;
-    gap: 1rem;
   }
 }

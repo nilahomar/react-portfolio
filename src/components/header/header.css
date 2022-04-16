@@ -1,6 +1,10 @@
 .intro {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   min-height: 100vh;
+  padding-top: 2rem;
 }
 
 .intro-left {
@@ -15,11 +19,11 @@
 }
 
 .intro-left-wrapper {
-  padding: 3rem;
+  /* padding: 3rem; */
   height: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 .intro-hello {
@@ -45,7 +49,7 @@
   25% {
     transform: translateY(-50px);
   }
- 50% {
+  50% {
     transform: translateY(-50px);
   }
 }
@@ -59,86 +63,60 @@
   align-items: center;
 }
 
-.btn{
-  /* margin-top: 3rem; */
-}
-
-.header_socials{
+.header_socials {
   width: max-content;
   display: flex;
   align-items: center;
   gap: 1rem;
   font-size: 1.5rem;
-  /* margin-top: 3rem; */
 }
 
-.header_socials a{
+.header_socials a {
   color: var(--color-brickRed);
 }
 
-
-.intro-img{
-   object-fit: contain;
-   transform: scaleX(-1);
-   padding: 3rem;
+.intro-img {
+  object-fit: contain;
+  transform: scaleX(-1);
+  padding: 3rem;
 }
 
-
-/* Media query for laptop */
-@media screen and (max-width: 1280px){
-
-  .intro-left-wrapper{
-    height: 100% ;
-  }
-  .btn{
-    margin-top: 3rem;
-  }
-  
-  .header_socials{
-    margin-top: 3rem;
-  }
-}
 /* Media query medium device */
-@media screen and (max-width: 1024px){
-  .intro{
+@media screen and (max-width: 1024px) {
+  .intro {
     flex-direction: column;
   }
-  .intro-left-wrapper{
+  .intro-left-wrapper {
     align-items: center;
     text-align: center;
-    height: 100% ;
+    height: 100%;
   }
-  .btn{
+  .btn {
     margin-top: 3rem;
   }
-  
-  .header_socials{
+
+  .header_socials {
     margin-top: 3rem;
   }
-  
+  .intro-title-item {
+    justify-content: center;
+  }
 }
 
 /* Media query small device */
-@media screen and (max-width: 600px){
-.intro{
-  flex-direction: column;
-}
-.intro-left-wrapper{
-  align-items: center;
-  text-align: center;
-  height: 100% ;
-}
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    gap: 0;
+  }
+  .intro-left-wrapper {
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap: 0rem;
+  }
 
-.intro-title-item{
-  font-size: 1.5rem;
-}
-
-/* .btn{
-  margin-top: 3rem;
-}
-
-.header_socials{
-  margin-top: 3rem;
-} */
-
+  .intro-title-item {
+    font-size: 1.5rem;
+  }
 }

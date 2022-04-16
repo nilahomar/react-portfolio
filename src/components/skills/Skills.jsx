@@ -1,7 +1,15 @@
 import React from "react";
 import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import { HiOutlineArrowRight } from "react-icons/hi";
+
+// const data = [
+//   {
+//     id:1,
+//     icon: { BsPatchCheckFill },
+//     content: ["Go the extra-mile","Results-oriented","Team-player","Caring","Positive mindset"]
+//   }
+// ]
+
 
 function Skills() {
   return (
@@ -11,43 +19,43 @@ function Skills() {
         <div className="skills_frontend">
           <h3>Front-end Development</h3>
           <div className="skills_content">
-            <article className="skills_details">              
-                <BsPatchCheckFill className="skills_details_icon" />
-                <div>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details_icon" />
+              <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill className="skills_details_icon"/>
+              <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill className="skills_details_icon"/>
+              <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill className="skills_details_icon"/>
+              <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>SASS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill className="skills_details_icon"/>
+              <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>REACT</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skills_details">
-              <BsPatchCheckFill className="skills_details_icon"/>
+              <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
@@ -67,28 +75,36 @@ function Skills() {
             I have a product-oriented development mindset and a responsible
             ownership attitude towards software components.
           </p>
-          <ul className="core-skills">
-            <li>
-              <HiOutlineArrowRight />
-              Go the extra-mile
-            </li>
-            <li>
-              <HiOutlineArrowRight />
-              Results-oriented
-            </li>
-            <li>
-              <HiOutlineArrowRight />
-              Team-player
-            </li>
-            <li>
-              <HiOutlineArrowRight />
-              Caring
-            </li>
-            <li>
-              <HiOutlineArrowRight />
-              Positive mindset
-            </li>
-          </ul>
+          <article className="skills_details">
+            <BsPatchCheckFill className="skills_details_icon" />
+            <div>
+              <h4>Go the extra-mile</h4>
+            </div>
+          </article>
+          <article className="skills_details">
+            <BsPatchCheckFill className="skills_details_icon" />
+            <div>
+              <h4>Results-oriented</h4>
+            </div>
+          </article>
+          <article className="skills_details">
+            <BsPatchCheckFill className="skills_details_icon" />
+            <div>
+              <h4>Team-player</h4>
+            </div>
+          </article>
+          <article className="skills_details">
+            <BsPatchCheckFill className="skills_details_icon" />
+            <div>
+              <h4>Caring</h4>
+            </div>
+          </article>
+          <article className="skills_details">
+            <BsPatchCheckFill className="skills_details_icon" />
+            <div>
+              <h4>Positive mindset</h4>
+            </div>
+          </article>
         </div>
       </div>
     </section>

@@ -5,7 +5,7 @@ import Me from "../../assets/me.svg";
 
 function Header() {
   return (
-    <div className="intro">
+    <div className="container intro">
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-hello">Hello, My name is </h2>
