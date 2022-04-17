@@ -3,6 +3,7 @@ import PhotoProject from "../../assets/photography.png";
 import foodProject from "../../assets/food-project.png";
 import BurgerProject from "../../assets/burger.png";
 import GridLayout from "../../assets/grid-layout-project.png";
+import RoboFriends from "../../assets/robofriends.png";
 
 const data = [
   {
@@ -17,9 +18,9 @@ const data = [
   {
     id: 2,
     image: foodProject,
-    title: "Simple Food Menu",
+    title: "Order online from Restaurants",
     content:
-      "A Photography project created with HTML and CSS where I have portrayed my Food and Still photographs. This is one of the first project I have done since I started my development career.",
+      "A simple Vanilla JS project for selling restaurant menu online",
     github: "https://github.com/nilahomar/project-food",
     demo: "https://nilahomar.github.io/project-food/",
   },
@@ -40,6 +41,15 @@ const data = [
       "An image Gallery created with CSS Grid layout. I learned a lot about Grid with this project.",
     github: "https://github.com/nilahomar/project-grid-layout",
     demo: "https://nilahomar.github.io/project-grid-layout",
+  },
+  {
+    id: 5,
+    image: RoboFriends,
+    title: "RoboFriends",
+    content:
+      "Robo Friends is a ReactJS app which is a Card UI and have different users information in card form and we can search dynamically through those cards by name of user.",
+    github: "https://github.com/nilahomar/robofriends/",
+    demo: "https://nilahomar.github.io/robofriends/",
   },
 ];
 
