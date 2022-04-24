@@ -13,10 +13,7 @@ const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
   const [name, setName] = useState('')
 
-  const onChange = (e)=>{
-    e.preventDefault()
-    setName(e.target.value)
-  }
+ 
   //form email
   const form = useRef();
 
@@ -24,13 +21,26 @@ const Contact = () => {
     e.preventDefault();
     emailjs.sendForm('service_eqo9ogi', 'template_5nnmvts', form.current, API_KEY)
       .then((result) => {
-        console.log(result.text);        
+        console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
       e.target.reset()
       setSubmitted(true);
   };
+
+  const onChange = (e)=>{
+    e.preventDefault()
+    setName(e.target.value)
+  }
+
+  const submitButton = () =>{
+    if(name.length === 0){
+      setSubmitted(false)
+    }else{
+      setSubmitted(true)
+    }
+  }
   return (
     <section id='contact'>
       <h2>Contact Me</h2>
@@ -52,7 +62,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' onChange={onChange} onClick={() => setSubmitted(false)}/>
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'onClick={() => setSubmitted(true)}>Send Message</button>
+          <button type='submit' className='btn btn-primary'onClick={submitButton}>Send Message</button>
           {submitted && <div className='success-message'>
             <p>Hey, {name.toLocaleUpperCase()}. Thanks for your message <span role="img" aria-label="smile">😊</span></p>
             </div>}
