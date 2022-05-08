@@ -7,7 +7,7 @@
 .skills_container > div {
   padding: 2.4rem 3rem;
   border-radius: 2rem;
-  border: 1px solid var(--color-green);
+  border: 1px solid var(--color-darkGreen);
   transition: var(--transition);
 }
 
@@ -24,7 +24,7 @@
 }
 
 .skills_container > div h4 {
-  color: var(--color-darkGreen);
+  color: var(--color-green);
   font-size: 1.5rem;
 }
 

@@ -58,7 +58,7 @@
   height: 50px;
   font-size: 2rem;
   font-weight: 500;
-  color: var(--color-darkGreen);
+  color: var(--color-green);
   display: flex;
   align-items: center;
 }
