@@ -1,0 +1,26 @@
+.darkTheme {
+  background-color: #282c34;
+  color: var(--color-bg);
+}
+
+.lightTheme {
+  color: var(--color-black);
+}
+
+.mode {
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modeIcon {
+  font-size: 1rem;
+  width: 2em;
+  height: 2em;
+  border-radius: 60%;
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
