@@ -29,18 +29,11 @@ const Contact = () => {
       setSubmitted(true);
   };
 
-  const onChange = (e)=>{
+  const handleChange = (e)=>{
     e.preventDefault()
     setName(e.target.value)
   }
 
-  const submitButton = () =>{
-    if(name.length === 0){
-      setSubmitted(false)
-    }else{
-      setSubmitted(true)
-    }
-  }
   return (
     <section id='contact'>
       <h2>Contact Me</h2>
@@ -59,10 +52,10 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required onChange={onChange} onClick={() => setSubmitted(false)}/>
+          <input type="text" name='name' placeholder='Your Full Name' required onChange={handleChange} onClick={() => setSubmitted(false)}/>
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'onClick={submitButton}>Send Message</button>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
           {submitted && <div className='success-message'>
             <p>Hey, {name.toLocaleUpperCase()}. Thanks for your message <span role="img" aria-label="smile">😊</span></p>
             </div>}
