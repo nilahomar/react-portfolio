@@ -2,7 +2,7 @@
 import PhotoProject from "../../assets/photography.png";
 import foodProject from "../../assets/food-project.png";
 import BurgerProject from "../../assets/burger.png";
-import GridLayout from "../../assets/grid-layout-project.png";
+import TenziesGame from "../../assets/tenzies.png";
 import RoboFriends from "../../assets/robofriends.png";
 
 const data = [
@@ -35,12 +35,12 @@ const data = [
   },
   {
     id: 4,
-    image: GridLayout,
-    title: "Grid Layout",
+    image: TenziesGame,
+    title: "Tenzies Game",
     content:
-      "An image Gallery created with CSS Grid layout. I learned a lot about Grid with this project.",
-    github: "https://github.com/nilahomar/project-grid-layout",
-    demo: "https://nilahomar.github.io/project-grid-layout",
+      "A Game developed with React app. Roll until all dice are the same.",
+    github: "https://github.com/nilahomar/tenzies_game",
+    demo: "https://tenzies-roll-dice.netlify.app/",
   },
   {
     id: 5,
