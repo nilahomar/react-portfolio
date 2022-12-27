@@ -10,7 +10,7 @@ const data = [
   {
     id: 1,
     image: TodoList,
-    title: "Todo List ",
+    title: "To-do List ",
     content:
       "A Todo List project created with React App. You can add, edit and rename the list items.",
     github: "https://github.com/nilahomar/todo_list",
