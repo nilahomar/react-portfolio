@@ -1,19 +1,20 @@
 
-import PhotoProject from "../../assets/photography.png";
+// import PhotoProject from "../../assets/photography.png";
 import foodProject from "../../assets/food-project.png";
 import BurgerProject from "../../assets/burger.png";
 import TenziesGame from "../../assets/tenzies.png";
 import RoboFriends from "../../assets/robofriends.png";
+import TodoList from "../../assets/todo_list.png";
 
 const data = [
   {
     id: 1,
-    image: PhotoProject,
-    title: "Nila's Photography",
+    image: TodoList,
+    title: "Todo List ",
     content:
-      "A Photography project created with HTML and CSS where I have portrayed my Food and Still photographs. This is one of the first project I have done since I started my development career.",
-    github: "https://github.com/nilahomar/dci-project",
-    demo: "https://nilahomar.github.io/dci-project/",
+      "A Todo List project created with React App. You can add, edit and rename the list items.",
+    github: "https://github.com/nilahomar/todo_list",
+    demo: "https://todolistnila.netlify.app/",
   },
   {
     id: 2,
