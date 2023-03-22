@@ -15,25 +15,28 @@ const About = () => {
         <div className="about_content">
           <article className="about_card">
             <p>
-              I am a Front-end Developer based in Berlin who is passionate about
-              fixing our day to day problems by the applied use of Technology.
-              Since more and more businesses are digitising their medium of
-              communication with their customers, I understand the demand for
-              the skills required and ready to take up the challenge.
+              I am a creative Full Stack Developer focusing on designing and
+              developing responsive web applications. I just completed an
+              Intensive WebDevelopment BootCamp at{" "}
+              <a href="https://www.lewagon.com/">Le Wagon </a> Berlin. As a
+              beginner in the industry, I am looking for a team to work with to
+              solve challenging and exciting problems and create world-class
+              products.
             </p>
             <p>
               My core skill sets are that I am a Quick Learner, Team-player and
-              I am open to challenges. And my technical skills are HTML, CSS and
-              JavaScript and their related frameworks.
+              I am open to challenges. And my technical skills are as you can
+              see
+              <a href="#skills"> below</a>
             </p>
             <p>
-              My journey as a software developer started with self-learning on {" "}
+              My journey as a software developer started with self-learning on{" "}
               <a
                 href="https://www.freecodecamp.org/learn/responsive-web-design/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Freecodecamp
+                FreeCodeCamp
               </a>
               . In order to bring more structure to my learning, I joined{" "}
               <a
@@ -43,7 +46,7 @@ const About = () => {
               >
                 Digital Career Institute
               </a>{" "}
-              for the Full-stack Developer course. Freecodecamp and Digital
+              for the Full-stack Developer course. FreeCodeCamp and Digital
               Career Institute have accelerated this journey and I've been able
               to work on various software projects both independently and as
               part of the program.

@@ -13,7 +13,7 @@
 .contact_option {
   border: 2px solid var(--color-darkGreen);
   padding: 1.2rem;
-  border-radius: 1.2rem;
+  border-radius: 1rem;
   text-align: center;
   transition: var(--transition);
 }

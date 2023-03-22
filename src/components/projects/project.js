@@ -5,10 +5,20 @@ import BurgerProject from "../../assets/burger.png";
 import TenziesGame from "../../assets/tenzies.png";
 import RoboFriends from "../../assets/robofriends.png";
 import TodoList from "../../assets/todo_list.png";
+import Shades from "../../assets/shades.png";
 
 const data = [
   {
     id: 1,
+    image: Shades,
+    title: "Shades ",
+    content:
+      "Shades makes our life easier by suggesting you the perfect makeup product for your skin tone based on our learnings.",
+    github: "https://github.com/nilahomar/shades",
+    demo: "https://www.findtheshades.com/",
+  },
+  {
+    id: 2,
     image: TodoList,
     title: "To-do List ",
     content:
@@ -17,7 +27,7 @@ const data = [
     demo: "https://todolistnila.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: foodProject,
     title: "Order online from Restaurants",
     content:
@@ -26,7 +36,7 @@ const data = [
     demo: "https://nilahomar.github.io/project-food/",
   },
   {
-    id: 3,
+    id: 4,
     image: BurgerProject,
     title: "Benny's Burger",
     content:
@@ -35,7 +45,7 @@ const data = [
     demo: "https://nilahomar.github.io/project-bennys-burger/",
   },
   {
-    id: 4,
+    id: 5,
     image: TenziesGame,
     title: "Tenzies Game",
     content:
@@ -44,7 +54,7 @@ const data = [
     demo: "https://tenzies-roll-dice.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: RoboFriends,
     title: "RoboFriends",
     content:

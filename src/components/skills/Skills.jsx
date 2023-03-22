@@ -17,7 +17,7 @@ function Skills() {
       <h2>My Core Skills</h2>
       <div className="container skills_container">
         <div className="skills_frontend">
-          <h3>Front-end Development</h3>
+          <h3>Fullstack Development</h3>
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details_icon" />
@@ -58,6 +58,27 @@ function Skills() {
               <BsPatchCheckFill className="skills_details_icon" />
               <div>
                 <h4>Bootstrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details_icon" />
+              <div>
+                <h4>Ruby</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details_icon" />
+              <div>
+                <h4>Ruby on rails</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details_icon" />
+              <div>
+                <h4>SQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

@@ -6,7 +6,7 @@
 
 .skills_container > div {
   padding: 2.4rem 3rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 2px solid var(--color-darkGreen);
   transition: var(--transition);
 }
